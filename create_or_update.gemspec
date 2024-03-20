@@ -8,16 +8,16 @@ Gem::Specification.new do |spec|
   spec.authors = ["tracy loisel"]
   spec.email = ["tracy.loisel@gmail.com"]
 
-  spec.summary = "TODO: Write a short summary, because RubyGems requires one."
-  spec.description = "TODO: Write a longer description or delete this line."
+  spec.summary = "Add class method create_or_update to any Active Record models"
+  spec.description = "Allow to create or update a record using .create_or_update(params)"
   spec.homepage = "https://github.com/wemind-tech/update_or_create"
   spec.required_ruby_version = ">= 2.6.0"
 
-  spec.metadata["allowed_push_host"] = "TODO: Set to your gem server 'https://example.com'"
+  spec.metadata["allowed_push_host"] = "https://github.com/wemind-tech/update_or_create/tree/main"
 
   spec.metadata["homepage_uri"] = spec.homepage
   spec.metadata["source_code_uri"] = "https://github.com/wemind-tech/update_or_create"
-  spec.metadata["changelog_uri"] = "TODO: Put your gem's CHANGELOG.md URL here."
+  spec.metadata["changelog_uri"] = "https://github.com/wemind-tech/update_or_create/blob/main/CHANGELOG.md"
 
   spec.add_development_dependency 'rspec', '~> 3.0'
   spec.add_development_dependency 'sqlite3'
